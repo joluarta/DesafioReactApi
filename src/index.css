@@ -1,0 +1,26 @@
+
+body {
+  margin: 0;
+  margin-top: auto;
+  text-align: center;
+  min-width: 500px;
+  min-height: 100vh;
+  background-color: rgb(126, 128, 124);
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 4.1;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: gray;
+  }
+
+  button {
+    background-color: #258aa3;
+  }
+}
